@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #001f3f; /* Warna latar belakang biru tua */
+}
+
+.good-night {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Warna teks putih */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Warna latar belakang putih dengan transparansi */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Shadow putih */
+    animation: fade-in 2s ease-out; /* Animasi fade-in */
+}
+
+.good-night h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.good-night p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.moon {
+    width: 150px; /* Lebar gambar bulan */
+    position: absolute;
+    top: 20px; /* Jarak dari atas */
+    left: 20px; /* Jarak dari kiri */
+    right: 100px;
+    animation: moon-float 5s infinite alternate; /* Animasi mengambang */
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moon-float {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(20px);
+    }
+}
+
+
+/* CSS existing styles */
+
+/* Tombol Bangun */
+#wakeupButton {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #91af4c; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Transisi perubahan warna latar belakang */
+}
+
+#wakeupButton:hover {
+    background-color: #91af4c; /* Warna latar belakang hijau yang lebih gelap saat hover */
+}
+
+/* CSS existing styles */
+
+
+/* CSS existing styles */
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Warna latar belakang biru tua */
+}
+
+.good-morning {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #926363; /* Warna teks putih */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* Warna latar belakang putih dengan transparansi */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Shadow putih */
+    animation: fade-in 2s ease-out; /* Animasi fade-in */
+}
+
+.good-morning h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.good-morning p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.sun {
+    width: 250px; /* Lebar gambar bulan */
+    position: absolute;
+    top: 20px; /* Jarak dari atas */
+    left: 20px; /* Jarak dari kiri */
+    animation: moon-float 5s infinite alternate; /* Animasi mengambang */
+}
+
+/* style.css */
+
+/* Style untuk tombol "Udah Bangun" */
+.morning-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #001f3f; /* Warna kuning matahari */
+    color: #FFFFFF; /* Warna teks putih */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover state untuk tombol */
+.morning-button:hover {
+    background-color: #001f3f; /* Warna kuning oranye saat hover */
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFA500; /* Warna kuning matahari */
+    color: #FFFFFF; /* Warna teks putih */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover state untuk tombol */
+.back-button:hover {
+    background-color: #FFA500; /* Warna kuning oranye saat hover */
+}
